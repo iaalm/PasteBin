@@ -1,1 +1,1 @@
-web: gunicorn mmi.wsgi --log-file -
+web: gunicorn PasteBin.wsgi --log-file -
