@@ -57,7 +57,7 @@ WSGI_APPLICATION = 'PasteBin.wsgi.application'
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 import dj_database_url
 DATABASES = {
-    'default': dj_database_url.config()
+		'default': dj_database_url.parse('postgres://apqworecpzeloq:42e4PoxJo8bgeQ3yKLdOTpx2mN@ec2-54-247-107-102.eu-west-1.compute.amazonaws.com:5432/d38ju926r4obt3')
 }
 
 # Internationalization
